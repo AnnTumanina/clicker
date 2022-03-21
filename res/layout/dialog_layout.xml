@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BF73DAC5"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/question"
+        android:textColor="@color/text"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/cat"
+        android:layout_width="255dp"
+        android:layout_height="61dp"
+        android:text="@string/cat"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/pig"
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:text="@string/pig"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/sheep"
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:text="@string/sheep"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/rabbit"
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:text="@string/rabbit"
+        android:textSize="20sp"/>
+</LinearLayout>

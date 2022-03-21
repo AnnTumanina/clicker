@@ -1,0 +1,10 @@
+<resources>
+<string name="app_name">PiesCounter</string>
+<string name="btn_students">(づ ◕‿◕ )づ*:･ﾟ✧ ДОБАВИТЬ~~~</string>
+<string name="question">Кого будем считать (｡•́‿•̀｡)?</string>
+<string name="cat">(^•ᴥ•^)</string>
+<string name="pig">(＝｀(●●)´＝)</string>
+<string name="sheep">Ꮚ`ꈊ´Ꮚ</string>
+<string name="rabbit">U ●ᆺ● U</string>
+<string name="text_to_change"> </string>
+</resources>

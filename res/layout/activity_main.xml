@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BF73DAC5"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txt_counter"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/ground"
+        android:gravity="center"
+        android:textColor="@color/text"
+        android:textSize="50sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_to_change"
+        android:text="@string/text_to_change"
+        android:textColor="@color/text"
+        android:textSize="25sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#13D5AE"
+        android:backgroundTint="@color/teal_200"
+        android:onClick="onClickBtnAddStudents"
+        android:text="@string/btn_students"
+        android:textColor="#A1FAF3"
+        android:textSize="16sp"
+        tools:ignore="UsingOnClickInXml" />
+
+</LinearLayout>
